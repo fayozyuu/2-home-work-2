@@ -1,0 +1,508 @@
+* {
+  list-style-type: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ul {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+/* btn */
+.btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 16px;
+  background: #00bafc;
+  border-radius: 5px;
+  color: white !important;
+}
+
+/* Header Section */
+.header {
+  box-shadow: 0px 10px 17px -8px rgba(34, 60, 80, 0.2);
+}
+.header_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_navbar-links {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.header_navbar-links > li {
+  padding: 16px;
+  transition: all 0.3s linear;
+  border-bottom: 3px solid transparent;
+}
+.header_navbar-links > li:hover {
+  border-color: #000000;
+}
+
+.section2-link {
+  width: 232px;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding: 8px 16px;
+  background: #00bafc;
+  border-radius: 5px;
+  color: white;
+}
+.link-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Main Section */
+/* Main_top */
+.section_top {
+  padding: 80px 0;
+}
+.section_top-boxs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section_top-box-title {
+  width: 470px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  margin: 0;
+}
+.section_top-box-text {
+  font-style: normal;
+  max-width: 470px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 16px 0;
+  color: #000000;
+  margin: 0 !important;
+}
+.youtube_videos {
+  width: 485px;
+  height: 260px;
+}
+
+/* Xizmatlar Section */
+.main_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+.main_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+}
+.xizmatlar-boxs {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.xizmatlar-box {
+  max-width: 290px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 16px;
+  background: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.xizmatlar_box-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+.xizmatlar-box-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+.xizmatlar-box-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.xizmatlar-buttons{
+  display: flex;
+ margin-top: 40px;
+}
+.ish-texts{
+  padding-top: 112px;
+ align-items: center;
+}
+.ish-title{
+  width: 262px;
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+text-align: center;
+color: #000000;
+}
+.ish-text{
+  width: 719px;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+.xizmatlar-btn-wrap{
+  padding-right: 22px;
+  padding-left: 460px;
+}
+/* qanday ishlaymiz? */
+/* left */
+.ish-infoes{
+  display: flex;
+  margin-top: 24px;
+}
+.ish-title{
+  margin-left: 452px;
+  margin-bottom: 14px;
+}
+.ish-text{
+  margin-left: 224px;
+}
+.ish-img{
+  padding-left: 162px;
+}
+.ish-right{
+  margin-top: 80px;
+  margin-left: 35px;
+}
+/* rigt */
+.ish-right2{
+  padding-left: 162px;
+  padding-top: 75px;
+}
+.ish-title3{
+  padding-right: 100px;
+}
+.ish-sec4-tetx{
+  padding-right: 90px;
+}
+.centre-ish{
+  margin-left: 30px;
+ padding-top: 50px;
+  text-align: center;
+}
+/* ////////buyurtma\\\\\\\\\\\ */
+.wrap-no1{
+  margin-top: 55px;
+  align-items: center;
+}
+.buyurtma-wrap{
+  background-color: #00bafc;
+}
+.buyurtma-title{
+  padding-top: 56px;
+  padding-bottom: 16px;
+  margin: 0 auto;
+  width: 203px;
+  font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 130%;
+color: #FFFFFF;
+}
+.buyurtma-text{
+  margin: 0 auto;
+  width: 719px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+}
+.buyurtma-writrs{
+  align-items: center;
+  
+}
+.buyurtma-la-in{
+  background-color: #FFFFFF;
+  width: 348px;
+}
+.buy-in{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+  border: 0px;
+  width: 300px;
+  background: #F3F3F3;
+border-radius: 5px;
+
+}
+.buyurtma {
+  margin-top: 55px;
+  background-color: #00BAFC;
+
+  height: 543px;
+}
+
+.buyurtma-title {
+  width: 203px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-top: 56px;
+  margin-bottom: 16px;
+  margin-left: 45%;
+}
+.buyurtma-text {
+  margin-left: 345px;
+  width: 719px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.registrasia {
+  background: #FFFFFF;
+  border-radius: 5px;
+  align-items: center;
+  width: 348px;
+  height: 304px;
+  margin-bottom: 64px;
+  margin-left: 40%;
+}
+.name {
+  width: 62px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  width: 300px;
+}
+
+.number {
+  width: 144px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+;
+  background: #F3F3F3;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  width: 300px;
+}
+.work {
+  width: 81px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background: #F3F3F3;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  width: 300px;
+}
+
+.buyurtma-link {
+  width: 135px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  background: #00BAFC;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  margin-left: 90px;
+}
+
+.buyurtmar-link:hover{
+  background-color: rgba(0, 186, 252, 0.8);
+  color: white;
+}
+
+.buyurtma-link:active{
+  background-color:rgba(0, 186, 252, 0.6);
+  color:white;
+}
+/* fotter */
+.fotter-wrapper{
+  justify-content: space-around;
+  display: flex;
+  background-color: #000000;
+}
+
+.fot-links-color{
+  color: #fff;
+}
+.ffffd{
+ gap: 100px;
+}
+.fot-title{
+  width: 150px;
+  font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 130%;
+color: #FFFFFF;
+margin-top: 55px;
+}
+.fot-text{
+  width: 320PX;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFF
+}
+  .fot-links{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 8px;
+  }
+  /* hizmatlar */
+  .bgc-f4f4f4{
+    background-color: #f4f4f4;
+    margin-left: 248px;
+    margin-top: 80px;
+  }
+  .wrapper-hiz{
+   justify-content: center;
+  }
+  .hiz-blue-right{
+    padding-right: 8px;
+  }
+  .hiz-title{
+    padding-top: 72px;
+    text-align: center;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 130%;
+color: #000000;
+}
+.title-hiz-right{
+  padding-bottom: 16px;
+}
+.text-hiz-right{
+  padding-bottom: 16px;
+}
+.texts-hiz-right{
+  padding-left: 40px;
+}
+.hiz-text1{
+  padding-top: 16px;
+  padding-bottom: 72px;
+ font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+}
+
+.wrapper-hizmatlar{
+  margin-top: 80px;
+  background-color: #fff;
+}
+.img-hiz{
+  width: 200px;
+  margin-left: 32px;
+}
+.dva-hiz-right{
+  display: flex;
+}
+.hizmatlar-test{
+  display: flex;
+}
+.links-hiz-right{
+  padding-bottom: 8px;
+ 
+}
+.hiz-btn-right{
+  margin-top: 8px;
+  margin-right: 16px;
+}
+
